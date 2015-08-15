@@ -1,0 +1,68 @@
+body {
+	background: transparent -moz-linear-gradient(center top , rgba(254, 182, 182, 0.5), rgba(255, 218, 186, 0.5)) repeat scroll 0% 0%;
+	font-size: 14px;
+	color: #DD1919;
+	font-family: "Trebuchet MS", Trebuchet MS, Arial, sans-serif;
+	margin-top: 30px;
+}
+
+h1 {
+	color: #8C1F02;
+	font-size: 48px;
+	text-transform: lowercase;
+	font-style: inherit;
+	background-color: #FE7878;
+	padding: 6px;
+	box-shadow: 15px 15px 0px rgba(209, 44, 0, 0.88);
+	width: -moz-fit-content;
+	margin-bottom: 30px;
+}
+
+h3 {
+	padding: 6px;
+	color: #AA1800;
+	font-size: 24px;
+	box-shadow: 7px 7px 0px rgba(209, 30, 0, 0.35);
+	width: -moz-fit-content;
+	background-color: rgba(255, 255, 255, 0.14);
+}
+
+h4 {
+	color: #880000;
+}
+
+a {
+	color: #110000;
+}
+
+.content-section {
+	padding: 30px 0;
+}
+
+.projects {
+	margin-top: 20px;
+}
+
+.project {
+	height: 100px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	max-width: 720px;
+	padding: 10px;
+}
+
+.project .name::before {
+	content: "Project: ";
+}
+
+.project .collaborators::before {
+	content: "Collaborators: ";
+}
+
+.project .description::before {
+	content: "Description: ";
+}
+
+.project .press::before {
+	content: "Press: ";
+}
