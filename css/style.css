@@ -1,5 +1,5 @@
 body {
-	background: transparent -moz-linear-gradient(center top , rgba(254, 182, 182, 0.5), rgba(255, 218, 186, 0.5)) repeat scroll 0% 0%;
+	background: transparent -moz-linear-gradient(center top , rgba(254, 182, 182, 0.25), rgba(255, 201, 155, 0.3)) repeat scroll 0% 0%;
 	font-size: 14px;
 	color: #DD1919;
 	font-family: "Trebuchet MS", Trebuchet MS, Arial, sans-serif;
@@ -7,13 +7,13 @@ body {
 }
 
 h1 {
-	color: #8C1F02;
+	color: #661500;
 	font-size: 48px;
 	text-transform: lowercase;
 	font-style: inherit;
 	background-color: #FE7878;
 	padding: 6px;
-	box-shadow: 15px 15px 0px rgba(209, 44, 0, 0.88);
+	box-shadow: 15px 15px 0px rgba(204, 29, 0, 0.9);
 	width: -moz-fit-content;
 	margin-bottom: 30px;
 }
@@ -22,9 +22,9 @@ h3 {
 	padding: 6px;
 	color: #AA1800;
 	font-size: 24px;
-	box-shadow: 7px 7px 0px rgba(209, 30, 0, 0.35);
+	box-shadow: 7px 7px 0px #FFCBC1;
 	width: -moz-fit-content;
-	background-color: rgba(255, 255, 255, 0.14);
+	background-color: #FEF9F9;
 }
 
 h4 {
@@ -44,25 +44,48 @@ a {
 }
 
 .project {
-	height: 100px;
-	background-color: #fff;
-	margin-bottom: 20px;
 	max-width: 720px;
-	padding: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	background-color: #FFF9F8;
+	box-shadow: 7px 7px 0px #FFCBC1;
 }
 
-.project .name::before {
-	content: "Project: ";
+.project-name {
+	font-size: 24px;
+	font-weight: bold;
+	color: #661500;
+	max-width: 720px;
+	padding: 5px 10px 0;
+	background-color: #FFF9F8;
+	box-shadow: 7px 7px 0px #FFCBC1;
 }
 
 .project .collaborators::before {
-	content: "Collaborators: ";
+	content: "With ";
 }
 
-.project .description::before {
-	content: "Description: ";
+.project .collaborators {
+	font-style: italic;
+	color: #6B1A1A;
+}
+
+.project .extra-info {
+	font-style: italic;
+	color: #6B1A1A;
+}
+
+.project .description {
+	padding: 10px 0;
 }
 
 .project .press::before {
 	content: "Press: ";
+	font-weight: bold;
+}
+
+.project .source::before {
+	content: "Try it: ";
+	font-weight: bold;
 }
