@@ -1,7 +1,7 @@
 body {
 	background: transparent -moz-linear-gradient(center top , rgba(254, 182, 182, 0.25), rgba(255, 201, 155, 0.3)) repeat scroll 0% 0%;
-	font-size: 14px;
-	color: #DD1919;
+	font-size: 16px;
+	color: #89280E;
 	font-family: "Trebuchet MS", Trebuchet MS, Arial, sans-serif;
 	margin-top: 30px;
 }
@@ -45,21 +45,31 @@ a {
 
 .project {
 	max-width: 720px;
+
+	/*combine!*/
 	padding-left: 10px;
-	padding-bottom: 10px;
-	margin-bottom: 20px;
+	padding-bottom: 15px;
+	padding-right: 10px;
+	padding-top: 10px;
+
+	margin-bottom: 30px;
 	background-color: #FFF9F8;
 	box-shadow: 7px 7px 0px #FFCBC1;
+
+	background-image: url("../img/newspix.png");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	/*background-size: 30%;*/
 }
 
 .project-name {
 	font-size: 24px;
 	font-weight: bold;
 	color: #661500;
-	max-width: 720px;
-	padding: 5px 10px 0;
-	background-color: #FFF9F8;
-	box-shadow: 7px 7px 0px #FFCBC1;
+	/*max-width: 720px;*/
+	/*padding: 10px 10px 0;*/
+	/*background-color: #FFF9F8;*/
+	/*box-shadow: 7px 7px 0px #FFCBC1;*/
 }
 
 .project .collaborators::before {
@@ -88,4 +98,14 @@ a {
 .project .source::before {
 	content: "Try it: ";
 	font-weight: bold;
+}
+
+.social-media {
+	margin-top: 20px;
+	max-width: 140px;
+}
+
+.social-media p {
+	float: right;
+	padding-top: 20px;
 }
