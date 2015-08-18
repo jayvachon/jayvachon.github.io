@@ -109,3 +109,8 @@ a {
 	float: right;
 	padding-top: 20px;
 }
+
+.social-media i {
+	width: 20px;
+	display: inline-block;
+}
