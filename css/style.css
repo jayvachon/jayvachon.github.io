@@ -1,5 +1,8 @@
 body {
-	background: transparent -moz-linear-gradient(center top , rgba(254, 182, 182, 0.25), rgba(255, 201, 155, 0.3)) repeat scroll 0% 0%;
+	background: #FEECEC;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FEECEC', endColorstr='#FFEFE1') repeat scroll 0% 0%;
+	background: transparent -moz-linear-gradient(center top , #FEECEC, #FFEFE1) repeat scroll 0% 0%;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FEECEC), to(#FFEFE1)) repeat scroll 0% 0%;
 	font-size: 16px;
 	color: #89280E;
 	font-family: "Trebuchet MS", Trebuchet MS, Arial, sans-serif;
@@ -14,6 +17,7 @@ h1 {
 	background-color: #FE7878;
 	padding: 6px;
 	box-shadow: 15px 15px 0px rgba(204, 29, 0, 0.9);
+	display: table;
 	width: -moz-fit-content;
 	margin-bottom: 30px;
 }
@@ -23,6 +27,7 @@ h3 {
 	color: #AA1800;
 	font-size: 24px;
 	box-shadow: 7px 7px 0px #FFCBC1;
+	display: table;
 	width: -moz-fit-content;
 	background-color: #FEF9F9;
 }
@@ -31,8 +36,17 @@ h4 {
 	color: #880000;
 }
 
-a {
+a:link {
 	color: #110000;
+}
+
+a:visited {
+	color: #110000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FF3400;
 }
 
 .content-section {
@@ -45,20 +59,17 @@ a {
 
 .project {
 	max-width: 720px;
-
-	/*combine!*/
-	padding-left: 10px;
-	padding-bottom: 15px;
-	padding-right: 10px;
-	padding-top: 10px;
-
+	padding: 10px 10px 15px 10px;
 	margin-bottom: 30px;
 	background-color: #FFF9F8;
 	box-shadow: 7px 7px 0px #FFCBC1;
 
-	background-image: url("../img/newspix.png");
+}
+
+.project-content {
+	/*background-image: url("../img/newspix.png");
 	background-position: right bottom;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 	/*background-size: 30%;*/
 }
 
@@ -66,10 +77,6 @@ a {
 	font-size: 24px;
 	font-weight: bold;
 	color: #661500;
-	/*max-width: 720px;*/
-	/*padding: 10px 10px 0;*/
-	/*background-color: #FFF9F8;*/
-	/*box-shadow: 7px 7px 0px #FFCBC1;*/
 }
 
 .project .collaborators::before {
@@ -103,14 +110,15 @@ a {
 .social-media {
 	margin-top: 20px;
 	max-width: 140px;
-}
-
-.social-media p {
-	float: right;
-	padding-top: 20px;
+	font-size: 30px;
 }
 
 .social-media i {
-	width: 20px;
+	width: 32px;
 	display: inline-block;
+}
+
+.social-media a span {
+	font-size: 20px;
+	display: inline;
 }
