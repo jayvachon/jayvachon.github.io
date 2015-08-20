@@ -26,6 +26,7 @@ h3 {
 	padding: 6px;
 	color: #AA1800;
 	font-size: 24px;
+	text-transform: lowercase;
 	box-shadow: 7px 7px 0px #FFCBC1;
 	display: table;
 	width: -moz-fit-content;
@@ -121,4 +122,13 @@ a:hover {
 .social-media a span {
 	font-size: 20px;
 	display: inline;
+}
+
+#influences h4 {
+	color: #FF806C;
+}
+
+#influences {
+	color: #FF806C;
+	margin-bottom: 40px;
 }
