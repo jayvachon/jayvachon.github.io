@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"backgrou",
+				"background-size"
+			],
+			[
 				"UpgradeDele",
 				"UpgradeDelegate2"
 			],
@@ -119,6 +123,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 11771,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 2184,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Unity3D Build System/Unity.sublime-build",
 	"command_palette":
@@ -171,7 +191,7 @@
 				"JSON Reindent: reindent file or selection"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -188,6 +208,18 @@
 	},
 	"file_history":
 	[
+		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/Unity-delaunay/Delaunay/SiteList.cs",
+		"/Users/jamesvachon/Developer/git-repositories/unity-projects/Unity-delaunay/demo/Assets/Unity-delaunay/Delaunay/Voronoi.cs",
+		"/Users/jamesvachon/Developer/git-repositories/unity-projects/Unity-delaunay/demo/Assets/Unity-delaunay/geom/Winding.cs",
+		"/Users/jamesvachon/Developer/git-repositories/unity-projects/Unity-delaunay/demo/Assets/Unity-delaunay/geom/Polygon.cs",
+		"/Users/jamesvachon/Developer/git-repositories/unity-projects/Unity-delaunay/demo/Assets/VoronoiDemo.cs",
+		"/Users/jamesvachon/Developer/git-repositories/jayvachon.github.io/CNAME",
+		"/Users/jamesvachon/msg.txt",
+		"/Users/jamesvachon/Developer/git-repositories/qrackit-proposal/index.html",
+		"/Users/jamesvachon/Developer/git-repositories/qrackit-proposal/docs/migration.html",
+		"/Users/jamesvachon/Developer/git-repositories/qrackit-proposal/docs/javascript.html",
+		"/Users/jamesvachon/Developer/git-repositories/qrackit-proposal/docs/index.html",
+		"/Users/jamesvachon/Developer/git-repositories/jayvachon.github.io/jayvachon.sublime-project",
 		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/Actions/Lists/ActionList.cs",
 		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/Time/TimerValues.cs",
 		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/Inventory/ItemHolder.cs",
@@ -303,19 +335,7 @@
 		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/UI/Notifications/NotificationCenter.cs",
 		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/UI/Notifications/Notification.cs",
 		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/Actions/Actions/Performer/ResearchUnit.cs",
-		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/EventHandling/Events/UnlockUnitEvent.cs",
-		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/EventHandling/Events/Input/SelectEvent.cs",
-		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/UI/BuildingIndicator.cs",
-		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/UI/FloatingIndicator.cs",
-		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/smcs.rsp",
-		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/sublime-snippets/Unity/foreach.sublime-snippet",
-		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/Utilities/Pooling/ObjectCreator.cs",
-		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/Actions/Actions/Performer/CollectHealth.cs",
-		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/Utilities/Pooling/ObjectBank.cs",
-		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/Actions/Actions/Performer/DeliverUnpairedItem.cs",
-		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/UI/MercuryRender.cs",
-		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/UI/HappinessIndicator.cs",
-		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/UI/HealthIndicator.cs"
+		"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/Assets/Scripts/EventHandling/Events/UnlockUnitEvent.cs"
 	],
 	"find":
 	{
@@ -336,6 +356,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#fff",
+			"fit",
+			"rgba(255, 201, 155, 0.3)",
+			"rgba(254, 182, 182, 0.25)",
+			"project-content",
+			"newspix.png",
+			"LinkedIn",
+			"github",
+			"GitHub",
+			"github",
+			"DD1919",
+			"../images",
+			"% include",
+			"collaborators",
+			"Link",
+			"FEF5F3",
+			"Link",
+			"Multilytheus",
+			"\n	",
+			"-bottom",
 			"DefaultName",
 			"virtual",
 			"override",
@@ -443,27 +483,7 @@
 			"this",
 			"true",
 			"requirespair",
-			"createpathtopai",
-			"destination =",
-			"destination",
-			"movetodestination",
-			"onbindac",
-			"target",
-			"position",
-			"value",
-			".progress =",
-			"pathable.progress",
-			"progress",
-			"Position",
-			"line",
-			"getyposition",
-			"position",
-			"updatepositions",
-			"positions",
-			"points",
-			"positions",
-			"line",
-			"gety"
+			"createpathtopai"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -481,8 +501,62 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 11771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1443,
+								1443
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 286.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 2184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								811,
+								811
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -531,6 +605,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"style",
+				"css/style.css"
+			],
 			[
 				"plotsc",
 				"Units/Managers/PlotsCreator.cs"
@@ -1038,10 +1116,6 @@
 			[
 				"performa",
 				"Actions/Lists/PerformableActions.cs"
-			],
-			[
-				"pathfinder",
-				"Pathing/Pathfinder.cs"
 			]
 		],
 		"width": 0.0
@@ -1052,6 +1126,10 @@
 		"selected_items":
 		[
 			[
+				"pathin",
+				"/Users/jamesvachon/Developer/git-repositories/unity-projects/DNA/pathing2/pathing2.sublime-project"
+			],
+			[
 				"",
 				"/Users/jamesvachon/Developer/git-repositories/WorldBank-RBF/WorldBank-RBF/WorldBank-RBF.sublime-project"
 			]
@@ -1061,7 +1139,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 270.0,
 	"status_bar_visible": true
 }
