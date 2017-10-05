@@ -104,7 +104,7 @@ a:hover {
 }
 
 .project .source::before {
-	content: "Try it: ";
+	content: "Visit: ";
 	font-weight: bold;
 }
 
