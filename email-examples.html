@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Example Email Templates</title>
+		<style>
+			body {
+				padding: 2em;
+				max-width: 800px;
+				margin: 0 auto;
+			}
+			h1 {
+				font-size: 36px;
+				margin: 24px 0;
+				font-weight: lighter;
+			}
+			h2 {
+				font-weight: lighter;
+			}
+			p {
+				color: #565656;
+				font-size: 18px;
+				font-weight: lighter;
+			}
+			hr {
+			    border-color: #fe4a80;
+			    border-style: dashed;
+			    margin-block-start: 1em;
+			    margin-block-end: 1em;
+			}
+			button {
+				font-size: 18px;
+				border: none;
+				padding: 12px 24px;
+				text-transform: uppercase;
+				transition: 0.2s;
+			}
+			button.square {
+				color: #ff4a80;
+			}
+			button.transparent {
+				border: 1px solid #ff4a80;
+				background: none;
+				color: #ff4a80;
+			}
+			button:hover {
+				cursor: pointer;
+				color: black;
+			}
+			button.round {
+				border: none;
+				background: #ff4a80;
+				color: white;
+				border-radius: 32px;
+			}
+			button.round:hover {
+				background: black;
+			}
+			.wrapper {
+				display: flex;
+				flex-flow: row wrap;
+				box-shadow: 0px 0px 40px #cfcfcf
+			}
+			.wrapper > * {
+				padding: 12px 24px;
+				flex: 1 100%;
+				font-family: sans-serif;
+			}
+			.dark-background {
+				background: #ff4a80;
+				color: white;
+			}
+			.dark-background > p {
+				color: white;
+			}
+			.light-background {
+				background: white;
+				color: #ff4a80;
+			}
+			.header {
+				text-align: center;
+				text-transform: uppercase;
+				padding: 48px 10px;
+			}
+			.header > p {
+				font-weight: lighter;
+			}
+			.subheader {
+				text-align: center;
+			}
+			.content {
+				text-align: center;
+			}
+			.highlight {
+				color: #ff4a80;
+			}
+			.flower-break {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin: 24px 0;
+			}
+			.flower-break > img {
+				width: 20px;
+				padding: 0 8px;
+			}
+			.flower-break > #small {
+				width: 16px;
+			}
+			.flower-break > #large {
+				width: 32px;
+			}
+			.flower-background {
+			    background: url(img/email/pink-flowers.png);
+			    background-size: cover;
+			    background-position: center;
+			    height: 360px;
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+			}
+			.flower-background > h1 {
+				color: white;
+			    font-family: cursive;
+			    font-size: 72px;
+			    text-shadow: 5px 5px 50px black;
+			    font-style: italic;
+			}
+			.flower-profile {
+				flex: 1 0 0;
+				text-align: center;
+			    margin: 12px 0;
+			}
+			.flower-image-1 {
+				background: url(img/email/white-flowers.png);
+			}
+			.flower-image-2 {
+				background: url(img/email/timid-flower.png);
+			}
+			.flower-image-3 {
+				background: url(img/email/wild-flowers.png);
+			}
+			.flower-image-4 {
+				background: url(img/email/whimsy-flowers.png);
+			}
+			.flower-image {
+				height: 360px;
+				min-width: 240px;
+			    background-size: cover;
+			    background-position: center;
+			}
+			.bottom {
+				text-align: center;
+			    padding: 48px 10px;
+			}
+			.steps {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-around;
+			}
+			.step {
+				width: 160px;
+				padding: 8px;
+			}
+			.step p {
+				color: white;
+			}
+			.footer {
+				background: #565656;
+				color: white;
+				text-align: center;
+			}
+			.footer > p {
+				color: white;
+			}
+			.footer > p > a {
+				color: white;
+			}
+			p.small {
+				margin: 8px 0;
+				font-size: 12px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<!-- Header -->
+			<header class="header dark-background">
+				<p>This winter, remember:</p>
+				<h1>Flowers are whimsical!</h1>
+				<button class="square">See more</button>
+			</header>
+
+			<!-- Subheader -->
+			<article class="subheader">
+				<h1>We have <span class="highlight">lots</span> of flowers!</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+				<button class="round">See them</button>
+				<div class="flower-break">
+					<img id="small" src="img/email/cherry-blossom.png">
+					<img src="img/email/cherry-blossom.png">
+					<img id="large" src="img/email/cherry-blossom.png">
+					<img src="img/email/cherry-blossom.png">
+					<img id="small" src="img/email/cherry-blossom.png">
+				</div>
+				<div class="flower-background">
+					<h1>clovers are nice</h1>
+				</div>
+			</article>
+			
+			<article class="content">
+				<h1>Our flowers have whimsy!</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</article>
+
+			<article class="flower-profile light-background">
+				<div class="flower-image flower-image-1"></div>
+				<h2>White flowers</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+				<button class="transparent">See more</button>
+			</article>
+
+			<article class="flower-profile light-background">
+				<div class="flower-image flower-image-2"></div>
+				<h2>Timid flowers</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+				<button class="transparent">See more</button>
+			</article>
+
+			<article class="flower-profile light-background">
+				<div class="flower-image flower-image-3"></div>
+				<h2>Wild flowers</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+				<button class="transparent">See more</button>
+			</article>
+
+			<article class="flower-profile light-background">
+				<div class="flower-image flower-image-4"></div>
+				<h2>Whimsical flowers</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+				<button class="transparent">See more</button>
+			</article>
+
+			<div class="flower-break">
+				<img id="small" src="img/email/cherry-blossom.png">
+				<img src="img/email/cherry-blossom.png">
+				<img id="large" src="img/email/cherry-blossom.png">
+				<img src="img/email/cherry-blossom.png">
+				<img id="small" src="img/email/cherry-blossom.png">
+			</div>
+
+			<article class="bottom dark-background">
+				<h1>Flowers are also <span style="font-style:italic">ephemeral</span></h1>
+				<div class="steps">
+					<div class="step">
+						<h2>Step 1</h2>
+						<p>A chance encounter with something alive or an ecological event spreads a seed.</p>
+					</div>
+					<div class="step">
+						<h2>Step 2</h2>
+						<p>Out of earthly matter peers a curious sprout. Through whimsy it ages flimsy into air.</p>
+					</div>
+					<div class="step">
+						<h2>Step 3</h2>
+						<p>Ticking time opportunes a recurrent Step 1, but there are no guarantees.</p>
+					</div>
+					<div class="step">
+						<h2>Step ❦</h2>
+						<p>Beauty is sustained through the ephemeral last gasp of living matter rejoining soil.</p>
+					</div>
+				</div>
+				<button class="square">See more</button>
+			</article>
+
+			<!-- Footer -->
+			<footer class="footer">
+				<p>Flowers are whimsical!</p>
+				<p class="small"><a href="#">About</a> | <a href="#">Contact</a> | <a href="#">Privacy</a> | <a href="#">Terms and Conditions</a> | <a href="#">Unsubscribe</a></p>
+				<p class="small">Copyright 2019 Flowers Are Whimsical, Inc. All rights reserved.</p>
+				<p class="small">101 Sprout Street, 160th Floor, Petals, FL 90909</p>
+				<p>❀</p>
+			</footer>
+		</div>
+	</body>
+</html>
